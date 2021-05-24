@@ -1,0 +1,210 @@
+@font-face {
+  src: url("affect3.ttf")
+    format("truetype");
+  font-family: AFFECTYPE;
+  
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: AFFECTYPE;
+  font-size: 200px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+p{  
+  font-variation-settings: "wght"0, "wdth"900, "opsz"900,"ital"900,"rxad"900;
+  font-size: 250px;
+  text-align: center;
+  margin: 0;
+
+}
+
+  /* this part is somehow throwing off the rest */
+  
+/* input[type="range"] {
+  -webkit-appearance: none;
+  margin: -30px 0;
+  width: 10%; 
+ }
+ input[type="range"]:focus {
+  outline: none;
+ } */
+  /* this controls the track */
+ /* input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 16px;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px #000000, 2px 2px 2px #0d0d0d;
+ } */
+
+ /* this controls the black dot */
+ input[type="range"]::-webkit-slider-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  background: black;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  -webkit-appearance: none;
+
+
+ }
+
+
+
+
+ #Anger{
+  -webkit-appearance: none;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px #000000, 2px 2px 2px #0d0d0d;
+  color:black;
+  position: fixed;
+  bottom: 100px;
+  left: 20%
+  
+
+
+}
+
+
+#Sadness{
+  -webkit-appearance: none;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px #000000, 2px 2px 2px #0d0d0d;
+  color:black;
+  position: fixed;
+  bottom: 100px;
+  left: 40%
+
+}
+#Joy{
+  -webkit-appearance: none;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px #000000, 2px 2px 2px #0d0d0d;
+  color:black;
+  position: fixed;
+  bottom: 100px;
+  left: 60%
+
+}
+
+#Fear{
+  -webkit-appearance: none;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px #000000, 2px 2px 2px #0d0d0d;
+  color:black;
+
+  position: fixed;
+  bottom: 100px;
+  left: 80%
+}
+
+
+.label {
+  color: black;
+  padding: 8px;
+  font-size: 20px;
+  position: fixed;
+ 
+
+
+}
+.Anger {
+font-family: AFFECTYPE;
+font-variation-settings: "rxad" 900 ;
+bottom: 120px;
+left: 22%
+} 
+.Sadness {
+font-family: AFFECTYPE;
+font-variation-settings: "ital" 900;
+bottom: 120px;
+left: 41%
+} 
+.Joy {
+font-family: AFFECTYPE;
+font-variation-settings: "opsz" 900;
+bottom: 120px;
+left: 63%
+} 
+
+.Fear {
+  font-family: AFFECTYPE;
+  font-variation-settings: "wdth" 900;
+  bottom: 120px;
+left: 83%
+} 
+
+
+
+
+
+
+
+
+#addText{
+  -webkit-text-size-adjust: 100%;
+
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  border: 0px solid #000101;
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px #000000, 2px 2px 2px #0d0d0d;
+  color:black;
+  background-color: white; 
+
+
+  background-color: white; 
+  overflow: hidden; 
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  /* width: calc(100% - 10px); */
+  padding: 30px;
+/*      z-index:-1;  */
+text-transform: uppercase;
+ }
+
+
+
+#Generate  {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px #000000, 2px 2px 2px #0d0d0d;
+  color:black;
+  background-color: white; 
+  overflow: hidden; 
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+/*      z-index:-1;  */
+}
+
+
